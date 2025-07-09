@@ -18,7 +18,7 @@ def speak(audio):
 
 def take_command():
     r = sr.Recognizer()
-    with sr.Microphone() as source:
+    with sr.Microphone(device_index=1) as source:
         print("Listening...")
         r.pause_threshold = 1
         audio = r.listen(source)
@@ -36,6 +36,7 @@ def take_command():
 if __name__ == '__main__':
 
     speak("Shephali assistance activated ")
+    speak("Hello Shephali")
     speak("How can i help you")
     while True:
         query = take_command().lower()
@@ -46,7 +47,7 @@ if __name__ == '__main__':
             speak("According to wikipedia")
             speak(results)
         elif 'are you' in query:
-            speak("I am amigo developed by Shephali Anand")
+            speak("I am Shephali assistance developed by Shephali Anand")
         elif 'open youtube' in query:
             speak("opening youtube")
             webbrowser.open("youtube.com")
@@ -78,5 +79,5 @@ if __name__ == '__main__':
         elif 'local disk e' in query:
             speak("opening local disk E")
             webbrowser.open("E://")
-        elif 'sleep' in query:
+        elif 'out' in query:
             exit(0)
