@@ -52,7 +52,7 @@ pip install wikipedia
 - "Open YouTube"
 - "Search India on Wikipedia"
 - "Play music"
-- "Sleep"
+- "out"
 
 
 
