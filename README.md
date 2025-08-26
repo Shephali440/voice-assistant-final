@@ -6,17 +6,26 @@ A simple Python-based voice assistant that listens to your voice commands and pe
 
 1. Features:
 Speech Recognition using speech_recognition
+
 Text-to-Speech using pyttsx3
+
 Search any topic on Wikipedia
+
 Open websites like YouTube, Google, GitHub, StackOverflow, Spotify
+
 Responds to queries like "Who are you"
+
 Open Local Disks (C, D, E drives)
+
 Launch WhatsApp Desktop from your PC
+
 Play music (opens Spotify)
+
 Stop the assistant by saying "out"
 
-2. Requirements
+3. Requirements
 Install the required Python libraries:
+
 pip install pyttsx3
 pip install SpeechRecognition
 pip install wikipedia
@@ -24,7 +33,8 @@ pip install pyaudio
 ▶️ How to Run
 Save the code as assistant.py
 
-3. Run the program:
+5. Run the program:
+   
 python assistant.py
 Speak into your microphone and try commands.
 
