@@ -3,6 +3,7 @@ Shephali Voice Assistant 🎙️
 A simple Python-based voice assistant that listens to your voice commands and performs tasks such as searching on Wikipedia, opening websites, launching WhatsApp, and accessing local drives.
 
 🚀 Features (As per current code)
+
  Speech Recognition using speech_recognition
 
  Text-to-Speech using pyttsx3
